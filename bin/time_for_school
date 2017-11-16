@@ -26,7 +26,7 @@ nolan.learn(some_knowledge)
 nolan.learn(some_more_knowledge)
 
 puts "#{steve.first_name} just learned this important knowledge: '#{steve.knowledge.first}'  and '#{steve.knowledge[1]}' from Avi"
-puts "#{nolan.first_name} just learned this important knowledge: '#{steve.knowledge.first}'  and '#{steve.knowledge[1]}' from Avi"
+puts "#{nolan.first_name} just learned this important knowledge: '#{nolan.knowledge.first}'  and '#{nolan.knowledge[1]}' from Avi"
 
 # jim = User.new
 # jim.first_name = "Jim"
